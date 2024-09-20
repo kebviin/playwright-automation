@@ -1,5 +1,7 @@
 import { expect, Page, test } from "@playwright/test";
 
+// Source: https://github.com/checkly/playwright-examples
+
 async function getAllLinksFromPage(page: Page) {
   // getByRole('link') only matches visible links
   //
